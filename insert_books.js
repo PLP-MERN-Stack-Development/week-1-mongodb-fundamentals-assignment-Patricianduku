@@ -131,8 +131,18 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
-  }
-];
+  },
+  {
+  title: "The Martian",
+  author: "Andy Weir",
+  genre: "Science Fiction",
+  published_year: 2014,
+  price: 14.99,
+  in_stock: true,
+  pages: 369,
+  publisher: "Crown Publishing Group"
+}];
+
 
 // Function to insert books into MongoDB
 async function insertBooks() {
